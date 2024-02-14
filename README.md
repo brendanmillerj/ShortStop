@@ -1,5 +1,4 @@
-![Alt text](https://freeimage.host/i/JEqvYa2)
-## 1. What is ShortStop?
+<a href="https://freeimage.host/"><img src="https://iili.io/JEqvYa2.jpg" alt="JEqvYa2.jpg" border="0" /></a>## 1. What is ShortStop?
 ShortStop, written in Python, is a computational tool that compares putative microproteins to randomly generated counterparts. 
 
 - **Core Problem Addressed**: 
