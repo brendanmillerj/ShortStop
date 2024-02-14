@@ -29,9 +29,8 @@ ShortStop is a computational tool that compares putative microproteins to random
 ## 3. Installation
 Typical installation time will vary depending on how many dependencies requirements are already met. Installation of all dependencies should take no more than 15 minutes.
 
-1. Download the latest version of the pipeline from [insert link]
-2. ``cd`` to the directory containing the ShortStop.tar.gz file and run ``tar -xzvf ShortStop.tar.gz`` in your terminal terminal.
-3. Install required Python packages
+1. ``cd`` to the directory containing the ShortStop.tar.gz file and run ``tar -xzvf ShortStop.tar.gz`` in your terminal terminal.
+2. Install required Python packages
 	1. ``$ cd`` into the ``ShortStop`` directory
 	2. Run ``$ pip install -r requirements.txt
 #### Testing the installation through demo mode
