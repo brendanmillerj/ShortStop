@@ -1,6 +1,7 @@
 <a href="https://freeimage.host/"><img src="https://iili.io/JEqvYa2.jpg" alt="JEqvYa2.jpg" border="0" /></a>
 ## 1. What is ShortStop?
-ShortStop, written in Python, is a computational tool that compares putative microproteins to randomly generated counterparts. 
+ShortStop, written in Python, is a computational tool that compares putative microproteins to randomly generated counterparts.
+**Pre-release note**: ShortStop was created by Brendan Miller, Eduardo Vieira De Souza, and Alan Saghatelian. This software is the property of the Salk Institute. It is provided as a pre-release version for testing and evaluation purposes only. Use of this software is subject to the terms and conditions outlined by the Salk Institute.
 
 - **Core Problem Addressed**: 
 	- By generating random/decoy microproteins matched to a putative set, ShortStop offers a solution to the void of robust null hypotheses in the microprotein field. 
