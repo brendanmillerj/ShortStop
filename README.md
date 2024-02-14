@@ -106,7 +106,7 @@ Final gamma value:  50
 5. Observe the neural network training results. 
 ```
 ⏳Starting neural network training...
-Number of DNA features: 921
+Number of DNA features: 912
 Number of AA features: 719
 Starting hyperparameter tuning...
 Best score: 0.8986437916755676
