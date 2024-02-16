@@ -2,7 +2,7 @@
 ## 1. What is ShortStop?
 ShortStop is a computational tool that compares putative microproteins to randomly generated counterparts.
 
-**Pre-release note**: ShortStop was created by Brendan Miller, Eduardo Vieira De Souza, and Alan Saghatelian. This software is the property of the Salk Institute. It is provided as a pre-release version for testing and evaluation purposes only. Use of this software is subject to the terms and conditions outlined by the Salk Institute.
+**Pre-release note**: ShortStop was created by Brendan Miller, Eduardo Vieira De Souza, and Alan Saghatelian. This software is the property of the Salk Institute. It is provided as a pre-release version for testing and evaluation purposes only. 
 
 - **Core Problem Addressed**: 
 	- By generating random/decoy microproteins matched to a putative set, ShortStop offers a solution to the void of robust null hypotheses in the microprotein field. 
@@ -22,15 +22,20 @@ ShortStop is a computational tool that compares putative microproteins to random
     
 ## 2. What can users do with Shortstop?
 - **Random/Decoy Generation**: Creates decoy microproteins from user-inputted putative sequences (e.g., smORFs identified via Ribo-Seq). The user can then use this list outside the ShortStop predictive scaffold (e.g., generate custom features for custom training)
-- **Feature Extraction**: Automatically extracts default gene features from random/decoy, putative, and experimentally validated microproteins for training. These features include 4-mer composition of upstream, CDS, and downstream nucleotides, as well as the protein features CTD, CKSAAP, APAAC, and QSO.
+- **Feature Extraction**: Automatically extracts default gene features from random/decoy, putative, and experimentally validated microproteins for training. These features include 4-mer composition of upstream, CDS, and downstream nucleotides, as well as the protein features CTDD, CKSAAP, APAAC, and QSO.
 - - **Offers the `**Standard ShortStop Predictive Model**`**:  for assigning class probabilities to putative microproteins. This model is based on deciphering putative microproteins from random ones generated from the GENCODE smORF Phase 1 catalog. 
 - **Neural Network Training**: Uses extracted features to train a neural network for default class prediction (i.e., Intracellular, Secreted, Random/Decoy).
 - **User Customization**: Allows for the input of custom features and classes beyond the default options for tailored model creation. 
 ## 3. Installation
 Typical installation time will vary depending on how many dependencies requirements are already met. Installation of all dependencies should take no more than 15 minutes.
 
-1. ``cd`` to the directory containing the ShortStop.tar.gz file and run ``tar -xzvf ShortStop.tar.gz`` in your terminal terminal.
-2. Install required Python packages
+1. Download the latest version of the pipeline from [GitHub](https://github.com/brendanmillerj/ShortStop). Please note this is considered confidential for peer-review only.
+2. ``cd`` to the directory containing the ShortStop.tar.gz file and run ``tar -xzvf ShortStop.tar.gz`` in your terminal terminal.
+3. We highly recommend you create a Python to run the pipeline. We used Python 3.9 to generate our pipeline. An example of generating your own environment is as followed:
+	1. ``conda create --name shortstop python=3.9``
+	2. ``conda activate shortstop``
+		**Note:** TensorFlow and TensorFlow Probability support Python 3.6 to 3.9. If problems arise, check Python version.
+1. Install required Python packages
 	1. ``$ cd`` into the ``ShortStop`` directory
 	2. Run ``$ pip install -r requirements.txt
 #### Testing the installation through demo mode
